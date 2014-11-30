@@ -15,7 +15,7 @@ module HackerTyper
 
     text_array.each do |word|
 
-      $stdin.sysread 1 # This will halt the program until a key is typed
+      $stdin.sysread 1 # This will halt the program until a key is pressed
       print "\b"
 
       word.each do |character|
